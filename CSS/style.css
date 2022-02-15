@@ -2,7 +2,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
-    background-color: lightgray;
+    background-color: rgb(238, 230, 230);
 }
 
 /* Header */
@@ -32,7 +32,8 @@ body {
 #mega_container {
     width: 800px;
     margin: 0 auto;
-    margin-top: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
 }
 
 /* Nav */
@@ -71,6 +72,104 @@ body {
 
 /* /Nav */
 
+/* Main */
+
+#site_main {
+    background-color: white;
+    margin-top: 2px;
+    border-radius: 5px;
+}
+
+#new_task {
+    margin-left: 3rem;
+}
+
+#today_task {
+    margin-left: 3rem;
+}
+
+#upcoming_task {
+    margin-left: 3rem;
+
+}
+
+.black_arrow {
+    display: inline-block;
+    font-size: 10px;
+    color: rgba(0,0,0, 0.7);
+}
+
+.section_title {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-family: 'Roboto', monospace;
+    color: rgba(0,0,0, 0.7);
+}
+
+.status_on {
+    display: inline-block;
+    color: green;
+    border: 1px solid rgb(45, 187, 45);
+    border-radius: 50%;
+    padding: 0.1rem 0.2rem 0.1rem 0.2rem;
+    font-size: 10px;
+}
+
+.status_off {
+    display: inline-block;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 0.1rem 0.2rem 0.1rem 0.2rem;
+    font-size: 10px; 
+}
+
+.body_task {
+    display: inline-block;
+    margin-top: 0;
+    font-weight : 300;
+}
+
+.task_category {
+    display: inline-block;
+    border-radius: 9px;
+    color: white;
+    font-size: 10px;
+    font-family: "Roboto", monospace;
+    font-weight: 300;
+    padding: 0.25rem 0.6rem 0.25rem 0.6rem
+}
+
+/* different task_category colors */
+
+.lightblue {
+    background-color: rgb(76, 186, 250);
+}
+
+.purple {
+    background-color: rgb(196, 42, 196);
+}
+
+.green {
+    background-color: rgb(25, 187, 133);
+}
+
+.orange {
+    background-color: orange;
+}
+
+.fucsia {
+    background-color: fuchsia;
+}
+
+.acid {
+    background-color: greenyellow;
+}
+
+/* /different task_category colors */
+
+
+/* /Main */
 
 
 
