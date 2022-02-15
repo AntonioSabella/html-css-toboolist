@@ -26,3 +26,52 @@ body {
 }
 
 /* /Header */
+
+/* #mega_container */
+
+#mega_container {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+/* Nav */
+
+#site_nav {
+    background-color: white;
+    border-radius: 5px;
+}
+
+#add_task {
+    background-color: rgb(76, 186, 250);
+    display: inline-block;
+    padding: 0.3rem 0.8rem 0.3rem 0.8rem; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 3rem;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    vertical-align: bottom;
+}
+
+#add_section {
+    background-color: white;
+    display: inline-block;
+    padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0.20rem;
+    border-radius: 5px;
+    color: lightgray;
+    font-size: 12px;
+    border: 1px solid lightgray;
+    vertical-align: bottom;
+}
+
+/* /Nav */
+
+
+
+
+/* /#mega_container */
