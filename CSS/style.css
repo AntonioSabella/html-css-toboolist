@@ -4,3 +4,25 @@ body {
     padding: 0;
     background-color: lightgray;
 }
+
+/* Header */
+
+#site_header {
+    background-color: white;
+}
+
+#logo_header {
+    width: 60px;
+    
+}
+
+#title_header {
+    display: inline-block;
+    font-family: 'Roboto', monospace;
+    font-size: 30px;
+    font-weight: 900;
+    vertical-align: 20px;
+
+}
+
+/* /Header */
